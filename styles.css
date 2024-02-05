@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main__detail{
+    
+    flex: 100%;
+}
+
+@media screen and (min-width: 640px) {
+    .main__detail {
+      flex:50;
+    }
+  }
+
+
+  div.logo-image img{
+    width: 50px;
+    height: 50px;
+  }
